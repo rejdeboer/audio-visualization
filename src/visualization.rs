@@ -4,7 +4,7 @@ use crate::audio::{BUFFER_SIZE, FftSpectrum};
 use crate::math::{get_a_weighting};
 
 const RESOLUTION: usize = 80000;
-const SMOOTHING_SPEED: f32 = 6.;
+const SMOOTHING_SPEED: f32 = 7.;
 
 #[repr(C)]
 #[derive(Copy, Clone, Debug, Pod, Zeroable)]
